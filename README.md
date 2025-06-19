@@ -26,13 +26,13 @@ This project simulates payroll calculations in accordance with the labor code an
 
 ## 🧠 Key Functionalities
 
-| Module                | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| `calculate_net_salary` | Calculates net salary based on gross salary, sector, and tax exemption      |
-| `get_rate`             | Helper function to fetch rate (percentage/fixed) based on code and sector   |
-| Overtime Pay          | Based on excess hours over monthly/weekly norms                             |
-| Vacation Pay          | Based on 12-month average salary and average month days (30.4)              |
-| Minimum Salary Check  | Ensures final net is not below the legal minimum (400 AZN in 2025)         |
+| Module                   | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| `calculate_net_salary`   | Calculates net salary based on gross salary, sector, and tax exemption      |
+| `get_rate`               | Helper function to fetch rate (percentage/fixed) based on code and sector   |
+| `calculate_overtime_pay` | Based on excess hours over monthly/weekly norms                             |
+| `calculate_vavation_pay` | Based on 12-month average salary and average month days (30.4)              |
+| Minimum Salary Check     | Ensures final net is not below the legal minimum (400 AZN in 2025)          |
 
 ---
 
@@ -81,9 +81,8 @@ END;
 /
 ```
 
-📸 Sample DBMS Output:
 ```
-Net Salary: 935.15
+Net Salary: 1738.08
 ```
 
 ---
@@ -113,7 +112,7 @@ The current logic is stable and production-ready for simulation and demonstratio
 ## 👨‍💻 Author
 
 **Amid Tahmasib**  
-📘 [Read the full technical article in Azerbaijani on Medium](https://medium.com/@amidtahmasib/az%C9%99rbaycanda-%C9%99m%C9%99khaqq%C4%B1-hesablama-sistemi-pl-sql-il%C9%99-h%C9%99ll-3c5b77d62986)  
+📘 [Read the full technical article in Azerbaijani on Medium](https://amidtahmasib.medium.com/az%C9%99rbaycanda-%C9%99m%C9%99khaqq%C4%B1-hesablama-sistemi-pl-sql-il%C9%99-h%C9%99ll-3c5b77d62986)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/amidtahmasib/)
 
 ---
