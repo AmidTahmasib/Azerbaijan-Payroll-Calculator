@@ -80,9 +80,8 @@ BEGIN
 END;
 /
 ```
+![Net Salary](screenshots/net_salary.png)
 
-```
-Net Salary: 1738.08
 ```
 
 ---
