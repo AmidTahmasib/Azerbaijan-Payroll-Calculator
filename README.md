@@ -47,7 +47,7 @@ azerbaijan-payroll-calculator/
 │   ├── payroll_pkg_body.sql       # Core business logic (translated to English)
 │   ├── test_calls.sql             # Test queries and DBMS_OUTPUT output
 ├── docs/
-│   └── payroll_flowchart_az.png   # Optional architecture diagram
+│   └── payroll_flowchart.png      # Optional architecture diagram
 ├── LICENSE                        # MIT License
 └── README.md                      # This file
 ```
