@@ -1,4 +1,4 @@
-﻿# 🇦🇿 Azerbaijan Payroll Calculator (PL/SQL)
+﻿# Azerbaijan Payroll Calculator (PL/SQL)
 
 > A modular and law-compliant payroll engine built with Oracle PL/SQL based on Azerbaijani labor regulations. Supports gross-to-net salary, overtime pay, and vacation pay calculations with sector-specific tax logic.
 
