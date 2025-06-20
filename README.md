@@ -20,7 +20,7 @@ This project simulates payroll calculations in accordance with the labor code an
 
 - **Oracle Database 19c+**
 - **PL/SQL** (Procedures, Functions, Packages)
-- **SQL Developer / DBeaver / TOAD** (Any Oracle IDE)
+- **SQL Developer** (Any Oracle IDE)
 
 ---
 
@@ -82,7 +82,6 @@ END;
 ```
 ![Net Salary](screenshots/net_salary.png)
 
-```
 
 ---
 
