@@ -40,13 +40,13 @@ This project simulates payroll calculations in accordance with the labor code an
 
 ```bash
 azerbaijan-payroll-calculator/
+├── screenshots
 ├── sql/
 │   ├── create_tables.sql          # Main tables: employees, rates, work norms
 │   ├── insert_sample_data.sql     # Sample data for testing
 │   ├── payroll_pkg_spec.sql       # Package specification (interface)
 │   ├── payroll_pkg_body.sql       # Core business logic (translated to English)
 │   ├── test_calls.sql             # Test queries and DBMS_OUTPUT output
-├── screenshots
 ├── LICENSE                        # MIT License
 └── README.md                      # This file
 ```
