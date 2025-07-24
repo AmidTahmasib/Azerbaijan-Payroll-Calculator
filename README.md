@@ -41,6 +41,10 @@ This project simulates payroll calculations in accordance with the labor code an
 ```bash
 azerbaijan-payroll-calculator/
 ├── screenshots
+│   ├── NULL_expected.png
+│   ├── net_salary.png
+│   ├── overtime.png
+│   ├── vacation.png
 ├── sql/
 │   ├── create_tables.sql          # Main tables: employees, rates, work norms
 │   ├── insert_sample_data.sql     # Sample data for testing
