@@ -40,7 +40,7 @@ This project simulates payroll calculations in accordance with the labor code an
 
 ```bash
 azerbaijan-payroll-calculator/
-├── screenshots
+├── screenshots/
 │   ├── NULL_expected.png
 │   ├── net_salary.png
 │   ├── overtime.png
